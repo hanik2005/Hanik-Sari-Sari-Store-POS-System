@@ -10,21 +10,21 @@ A simple **Point of Sale (POS) System** built using **HTML, CSS, and JavaScript*
 
 > Add your screenshot here
 
-```md
+
 ![POS Screenshot](images/pos.png)
-```
+
 
 ### Receipt
 
-```md
+
 ![Receipt](images/receipt.png)
-```
+
 
 ### Sales Report
 
-```md
+
 ![Sales Report](images/report.png)
-```
+
 
 ---
 
