@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanik Sari-Sari Store POS</title>
+    <link rel="stylesheet" href="Design/style.css">
+</head>
+<body>
+
+<header>
+
+    <h1>🛒 Hanik Sari-Sari Store</h1>
+
+    <p>Point of Sale System</p>
+
+</header>
+
+<div class="container">
+
+    <!-- Products -->
+    <div class="products">
+
+        <div class="filters">
+
+            <div>
+
+                <label>Select Category</label>
+
+                <select id="categorySelect">
+                    
+                </select>
+
+            </div>
+
+            <div>
+
+                <label>Search Product</label>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="🔍 Search product..."
+                >
+
+            </div>
+
+        </div>
+
+        <div id="productList"></div>
+
+    </div>
+
+    <!-- Current Sale -->
+    <div class="currentSale">
+
+        <h2>🛒 Current Sale</h2>
+
+        <div id="currentSaleItems">
+
+            <p class="empty-currentSale">
+                Your Current Sale is empty.
+            </p>
+
+        </div>
+
+        <hr>
+
+        <h3>Total: ₱<span id="currentSaleTotal">0.00</span></h3>
+
+        <label>Customer Name</label>
+
+        <input
+            type="text"
+            id="customerName"
+            placeholder="Enter customer name"
+        >
+
+        <label>Payment</label>
+
+        <input
+            type="number"
+            id="payment"
+            placeholder="Enter payment"
+            min="0"
+        >
+
+        <h3>
+            Change:
+            ₱<span id="change">0.00</span>
+        </h3>
+
+
+
+        <button id="checkoutBtn">
+
+            Checkout
+
+        </button>
+
+        <button id="salesBtn" onclick="window.location.href='report.html'">
+            📊 Sales Report
+        </button>
+
+    </div>
+
+</div>
+
+<footer>
+
+    Hanik Sari-Sari Store POS System © 2026
+
+</footer>
+
+<script src="Function/script.js"></script>
+
+</body>
+</html>
