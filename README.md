@@ -8,7 +8,6 @@ A simple **Point of Sale (POS) System** built using **HTML, CSS, and JavaScript*
 
 ### Main POS Interface
 
-> Add your screenshot here
 
 
 ![POS Screenshot](images/pos.png)
